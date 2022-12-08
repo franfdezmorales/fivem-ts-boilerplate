@@ -1,0 +1,18 @@
+{
+  "name": "fivem-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node delete_build.js && esbuild src/client/index.ts src/server/index.ts --bundle --format=iife --minify --platform=node --outdir=build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@citizenfx/client": "2.0.6104-1",
+    "@citizenfx/server": "2.0.6104-1",
+    "esbuild": "^0.15.16"
+  }
+}

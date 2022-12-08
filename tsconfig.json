@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "types": ["@citizenfx/client", "@citizenfx/server"], 
+        "module": "es6",
+        "target": "ESNext",
+        "moduleResolution": "node"
+    }, 
+    "include": ["./src/**/*"], 
+    "exclude": ["./node_modules", "./delete_build.js"], 
+}
